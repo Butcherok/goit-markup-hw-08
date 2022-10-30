@@ -19,7 +19,7 @@
     padding: 15px 0;
 }
 
-.menu-btn {
+.menu-toggle {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -32,12 +32,12 @@
 
     transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .menu-btn__cross {
+    .menu-toggle__cross {
     scale: 0; 
     }
 }
 
-.menu-btn.is-open {
+.menu-toggle.is-open {
     transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     .menu-btn__cross {
@@ -48,7 +48,7 @@
     }
 }
 
-.menu-btn__icons {
+.menu-toggle__icons {
     color: currentColor;
 }
 

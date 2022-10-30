@@ -29,7 +29,13 @@ ul, ol {
 }
 
 .container {
-    width: 480px;
+    min-width: 320px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 15px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }

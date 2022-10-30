@@ -1,9 +1,16 @@
 .customers {
-    padding: 94px 0;
+    padding-bottom: 60px;
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .customers__title {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
     font-size: 36px;
     line-height: 1.17;
@@ -13,6 +20,8 @@
 
 .customers__list {
     display: flex;
+    flex-wrap: wrap;
+    width: 450px;
 
     gap: 30px;
 
@@ -23,7 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
+    width: 210px;
     height: 92px;
 }
 
@@ -31,7 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
+    width: 210px;
     height: 92px;
     fill: $client-color-primary;
     border: 1px solid $client-color-primary;
