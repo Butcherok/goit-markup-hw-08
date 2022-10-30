@@ -20,8 +20,8 @@
             <nav class="nav-bar">
                 <a href="./index.html" class="logo">Web<span class="logo-part">Studio</span></a>
                 <button class="menu-toggle js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
-                    <svg class="menu-btn__icons" width="40" height="40" aria-label="Перемикач мобільного меню">
-                        <use class="menu-btn__menu" href="./images/Icon/icons.svg#icon-menu"></use>
+                    <svg class="menu-toggle__icons" width="40" height="40" aria-label="Перемикач мобільного меню">
+                        <use class="menu-toggle__menu" href="./images/Icon/icons.svg#icon-menu"></use>
                     </svg>
                 </button>
                 <ul class="nav-bar__list">
@@ -467,16 +467,37 @@
     <!-- mobile menu -->
     <div class="menu-container js-menu-container" id="mobile-menu">
         <button class="menu-toggle js-close-menu">
-            <svg class="menu-btn__icons" width="40" height="40" aria-label="Перемикач мобільного меню">
-                <use class="menu-btn__cross" href="./images/Icon/icons.svg#icon-cross"></use>
+            <svg class="menu-toggle__icons" width="40" height="40" aria-label="Перемикач мобільного меню">
+                <use class="menu-toggle__cross" href="./images/Icon/icons.svg#icon-cross"></use>
             </svg>
         </button>
-    
-        <ul class="mobile-menu">
-            <li><a href="" class="link">About</a></li>
-            <li><a href="" class="link">Products</a></li>
-            <li><a href="" class="link">Contacts</a></li>
-            <li><a href="" class="link">Career</a></li>
+        <ul class="menu-bar">
+            <li class="menu-bar__item"><a href="./index.html" class="menu-bar__link menu-bar__link--current">Студія</a></li>
+            <li class="menu-bar__item"><a href="./portfolio.html" class="menu-bar__link">Портфоліо</a></li>
+            <li class="menu-bar__item"><a href="./index.html" class="menu-bar__link">Контакти</a></li>
+        </ul>
+        <ul class="menu-contact">
+            <li class="menu-contact__item">
+                <a href="tel:++380961111111" class="menu-contact__link">+38 096 111 11 11</a>
+            </li>
+            </li>
+            <li class="menu-contact__item">
+                <a href="mailto:info@devstudio.com" class="menu-contact__link">info@devstudio.com</a>
+            </li>
+        </ul>
+        <ul class="menu-soc">
+            <li class="menu-soc__item">
+                <a href="./index.html" class="menu-soc__link">instagram</a>
+            </li>
+            <li class="menu-soc__item">
+                <a href="./index.html" class="menu-soc__link">twitter</a>
+            </li>
+            <li class="menu-soc__item">
+                <a href="./index.html" class="menu-soc__link">facebook</a>
+            </li>
+            <li class="menu-soc__item">
+                <a href="./index.html" class="menu-soc__link">linkedin</a>
+            </li>
         </ul>
     </div>
 <!-- js -->

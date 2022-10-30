@@ -31,21 +31,10 @@
     background-color: transparent;
 
     transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    .menu-toggle__cross {
-    scale: 0; 
-    }
 }
 
 .menu-toggle.is-open {
     transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    .menu-btn__cross {
-        scale: 1;
-    }
-    .menu-btn__menu {
-        scale: 0;
-    }
 }
 
 .menu-toggle__icons {
