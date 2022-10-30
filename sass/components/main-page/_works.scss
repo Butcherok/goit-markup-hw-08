@@ -1,9 +1,7 @@
 .works {
-    padding-bottom: 94px;
 }
 
 .works__title {
-    margin-bottom: 50px;
 
     font-size: 36px;
     line-height: 1.17;
@@ -12,14 +10,10 @@
 }
 
 .works__list {
-    display: flex;
 }
 
 .works__item {
     position: relative;
-
-    width: calc((100% - 60px) / 3);
-    margin-right: 30px;  
     
     list-style-type: none;
 
