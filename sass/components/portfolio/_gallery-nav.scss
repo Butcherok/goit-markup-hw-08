@@ -1,8 +1,6 @@
 .gallery-btn {   
     list-style: none;
-    &:not(:last-child) {
-    margin-right: 8px;
-    }
+    margin: 0 8px 15px 0;
 }
 
 .gallery-btn__text {

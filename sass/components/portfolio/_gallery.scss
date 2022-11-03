@@ -5,19 +5,20 @@
 
 .gallery__nav {
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-bottom: 40px;
+    max-width: 350px;
 }
 
 .gallery__cards {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 30px;
+
 }
 
 .gallery-card {
-    width: calc((100% - 60px) / 3);
-
     list-style: none;
 
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);

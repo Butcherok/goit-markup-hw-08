@@ -29,6 +29,7 @@ ul, ol {
 }
 
 .container {
+    width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 
@@ -50,4 +51,11 @@ main {
     display: flex;
     flex-direction: column;
     gap: 60px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
