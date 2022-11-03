@@ -28,8 +28,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    min-width: 450px;
-    min-height: 609px;
+    width: 100%;
+    max-width: 450px;
     padding: 40px;
 
     background: $footer-color-text-secondary;
