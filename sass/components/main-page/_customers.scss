@@ -7,8 +7,12 @@
         align-items: center;
         justify-content: center;
 
-        @media screen and (min-width: 480px) {
+        @include mobile {
             width: 480px;
+        }
+
+        @include tablet {
+            width: 768px;
         }
     }
 }
@@ -16,7 +20,7 @@
 .customers__title {
     margin-bottom: 30px;
 
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
@@ -31,6 +35,10 @@
     gap: 30px;
 
     list-style-type: none;
+
+    @include tablet {
+        max-width: 738px;
+    }
 }
 
 .customers__item {
@@ -39,6 +47,10 @@
     align-items: center;
     max-width: 210px;
     height: 92px;
+
+    @include tablet {
+        max-width: 226px;
+    }
 }
 
 .customers__link {
@@ -57,6 +69,10 @@
     &:hover, &:focus {
     border-color: $text-color-accent;
     fill: $text-color-accent;
+    }
+
+    @include tablet {
+        width: 226px;
     }
 }
 

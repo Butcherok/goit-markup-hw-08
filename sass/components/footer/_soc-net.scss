@@ -4,6 +4,10 @@
     align-items: center;
     justify-content: center;
 
+    @include tablet {
+        margin-left: auto;
+    }
+
 }
 
 .socials__title {
