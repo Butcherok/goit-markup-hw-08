@@ -27,6 +27,11 @@
 .logo-bsmt {
     @extend %logo-base;
     margin-bottom: 20px;
+
+    @include desktop {
+        font-size: 26px;
+        line-height: 1.19;
+    }
 }
 
 .logo-bsmt-part {

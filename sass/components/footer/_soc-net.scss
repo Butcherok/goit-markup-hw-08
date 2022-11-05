@@ -8,6 +8,10 @@
         margin-left: auto;
     }
 
+    @include desktop {
+        margin-left: 0;
+    }
+
 }
 
 .socials__title {

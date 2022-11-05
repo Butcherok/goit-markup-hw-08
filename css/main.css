@@ -93,6 +93,12 @@ img {
 .logo-bsmt {
   margin-bottom: 20px;
 }
+@media screen and (min-width: 1170px) {
+  .logo-bsmt {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
 
 .logo-bsmt-part {
   color: #ffffff;
@@ -429,6 +435,17 @@ img {
     padding: 0 89px;
   }
 }
+@media screen and (min-width: 1170px) {
+  .site-footer__box {
+    gap: 93px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .site-footer__box.container {
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}
 
 .footer-contacts {
   display: flex;
@@ -436,12 +453,23 @@ img {
   align-items: center;
   justify-content: center;
 }
+@media screen and (min-width: 1170px) {
+  .footer-contacts {
+    align-items: flex-start;
+  }
+}
+
 .footer-contacts__list {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 8px;
+}
+@media screen and (min-width: 1170px) {
+  .footer-contacts__list {
+    align-items: flex-start;
+  }
 }
 
 .footer-contacts__item {
@@ -477,6 +505,11 @@ img {
 @media screen and (min-width: 768px) {
   .socials {
     margin-left: auto;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .socials {
+    margin-left: 0;
   }
 }
 
@@ -530,6 +563,11 @@ img {
     width: 450px;
   }
 }
+@media screen and (min-width: 1170px) {
+  .follow {
+    width: 570px;
+  }
+}
 
 .follow__title {
   margin-bottom: 20px;
@@ -549,6 +587,12 @@ img {
   justify-content: center;
   gap: 20px;
   width: 100%;
+}
+@media screen and (min-width: 1170px) {
+  .follow__form {
+    flex-direction: row;
+    gap: 12px;
+  }
 }
 
 .follow__email {
@@ -1179,6 +1223,7 @@ img {
 }
 @media screen and (min-width: 1170px) {
   .customers__title {
+    margin-bottom: 50px;
     font-size: 36px;
   }
 }

@@ -7,6 +7,10 @@
     @include tablet {
         width: 450px;
     }
+
+    @include desktop {
+        width: 570px;
+    }
 }
 
 .follow__title {
@@ -28,6 +32,11 @@ text-transform: uppercase;
     justify-content: center;
     gap: 20px;
     width: 100%;
+
+    @include desktop {
+        flex-direction: row;
+        gap: 12px;
+    }
 }
 
 .follow__email {
