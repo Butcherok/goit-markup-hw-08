@@ -42,7 +42,7 @@ ul, ol {
     }
 
     @include desktop {
-    width: 1170px;
+    width: 1200px;
     }
 
 }
@@ -51,6 +51,10 @@ main {
     display: flex;
     flex-direction: column;
     gap: 60px;
+
+    @include desktop {
+        gap: 94px;
+    }
 }
 
 img {

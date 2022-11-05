@@ -66,8 +66,8 @@
 .nav-bar__item:not(:first-child) {
     margin-left: 50px;
 
-        @include tablet {
-            margin-left: 0;
+    @include tablet {
+        margin-left: 0;
     }
 
 }

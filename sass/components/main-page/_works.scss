@@ -1,8 +1,13 @@
 .works {
     display: none;
+
+    @include desktop {
+        display: block;
+    }
 }
 
 .works__title {
+    margin-bottom: 50px;
 
     font-size: 36px;
     line-height: 1.17;
@@ -11,16 +16,15 @@
 }
 
 .works__list {
+    display: flex;
+    margin-bottom: 94px;
+    gap: 30px;
 }
 
 .works__item {
     position: relative;
     
     list-style-type: none;
-
-    &:nth-last-child(-n + 1) {
-    margin-right: 0px;
-    }
 }
 
 .works__text {

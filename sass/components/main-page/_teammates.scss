@@ -1,6 +1,10 @@
 .team {
     padding-bottom: 60px;
     background-color: $team-bg-color;
+
+    @include desktop {
+        padding-bottom: 0;
+    }
 }
 
 .team__title {
@@ -13,6 +17,12 @@
 
     @include tablet {
         margin-top: 60px;
+    }
+
+    @include desktop {
+        margin-top: 0;
+        margin-bottom: 50px;
+        font-size: 36px;
     }
 }
 
@@ -27,6 +37,10 @@
         flex-wrap: wrap;
     }
 
+    @include desktop {
+        margin-bottom: 94px;
+        flex-wrap: nowrap;
+    }
 }
 
 .team__card {

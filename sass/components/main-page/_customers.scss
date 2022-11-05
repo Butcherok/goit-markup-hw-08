@@ -14,7 +14,17 @@
         @include tablet {
             width: 768px;
         }
+
+        @include desktop {
+            padding-bottom: 94px;
+            width: 1200px;
+        }
     }
+
+    @include desktop {
+        padding-bottom: 0;
+    }
+
 }
 
 .customers__title {
@@ -24,6 +34,10 @@
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+
+    @include desktop {
+        font-size: 36px;
+    }
 }
 
 .customers__list {
@@ -39,6 +53,11 @@
     @include tablet {
         max-width: 738px;
     }
+
+    @include desktop {
+        min-width: 170px;
+        flex-wrap: nowrap;
+    }
 }
 
 .customers__item {
@@ -51,6 +70,11 @@
     @include tablet {
         max-width: 226px;
     }
+
+    @include desktop {
+        min-width: 170px;
+    }
+
 }
 
 .customers__link {

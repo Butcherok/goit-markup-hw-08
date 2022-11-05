@@ -12,6 +12,12 @@
 }
 .logo {
     @extend %logo-base;
+
+    @include desktop {
+        font-size: 26px;
+        line-height: 1.19;
+        margin-right: 52px;
+    }
 }
 
 .logo-part {

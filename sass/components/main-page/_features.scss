@@ -11,6 +11,10 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    @include desktop {
+        flex-wrap: nowrap;
+    }
 }
 
 .about {
@@ -21,6 +25,10 @@
     @include tablet {
         align-items: flex-start;
         max-width: 354px;
+    }
+
+    @include desktop {
+        min-width: 270px;
     }
 }
 
