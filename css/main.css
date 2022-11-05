@@ -267,7 +267,7 @@ img {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vw;
+  height: 100%;
   padding: 48px 40px;
   background-color: #ffffff;
   z-index: 999;
@@ -339,10 +339,15 @@ img {
 .menu-contact__tel {
   text-decoration: none;
   font-weight: 500;
-  font-size: 34px;
+  font-size: calc((100vw - 320px) / 160 * 10 + 24px);
   line-height: 1.18;
   letter-spacing: 0.02em;
   color: #2196F3;
+}
+@media screen and (min-width: 480px) {
+  .menu-contact__tel {
+    font-size: 34px;
+  }
 }
 
 .menu-contact__mail {
