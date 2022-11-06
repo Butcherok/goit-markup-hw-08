@@ -1,6 +1,10 @@
 .gallery-btn {   
     list-style: none;
     margin: 0 8px 15px 0;
+
+    @include tablet {
+        margin: 0;
+    }
 }
 
 .gallery-btn__text {

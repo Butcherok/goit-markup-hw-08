@@ -12,7 +12,7 @@
     left: 0;
     padding: 24px;
 
-  font-size: calc( (100vw - 320px)/(480 - 320) * (18 - 16) + 16px);
+    font-size: calc( (100vw - 320px)/(480 - 320) * (18 - 16) + 16px);
     line-height: 1.56;
     letter-spacing: 0.03em;
 
@@ -23,13 +23,20 @@
 }
 
 .gallery-card__name {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
     padding: 20px 24px;
-    border: 1px solid #EEEEEE;
+    border: 1px solid #EEE;
+}
+
+.gallery-card__name--stretch {
+    @include tablet {
+        padding-bottom: 56px;
+    }
 }
 
 .gallery-card__title {
-    margin-bottom: 4px;
-
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
