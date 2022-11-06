@@ -671,6 +671,7 @@ img {
 }
 @media screen and (min-width: 1170px) {
   .hero {
+    width: 100%;
     max-width: 1600px;
     padding: 200px 0 200px 0;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/desktop/pc-hero-1x.jpg);

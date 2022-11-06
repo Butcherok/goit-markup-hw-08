@@ -105,15 +105,33 @@
                 <h2 class="works__title">Чим ми займаємося</h2>
                 <ul class="works__list">
                     <li class="works__item">
-                        <img src="./images/about-1.jpg" alt="людина працює на персональному компьютері" width="370">
+                        <picture>
+                            <source srcset="
+                                ./images/main/desktop/about-desktop-1x.jpg 1x,
+                                ./images/main/desktop/about-desktop-2x.jpg 2x
+                                " media="(min-width: 1170px)" />
+                            <img src="./images/main/desktop/about-desktop-1x.jpg" alt="людина працює на персональному компьютері" width="370" />
+                        </picture>
                         <p class="works__text">Десктопні додатки</p>
                     </li>
                     <li class="works__item">
-                        <img src="./images/about-2.jpg" alt="людина працює на лептопі" width="370">
+                        <picture>
+                            <source srcset="
+                                ./images/main/desktop/about-mobile-1x.jpg 1x,
+                                ./images/main/desktop/about-mobile-2x.jpg 2x
+                                " media="(min-width: 1170px)" />
+                            <img src="./images/main/desktop/about-mobile-1x.jpg" alt="людина працює на лептопі" width="370" />
+                        </picture>
                         <p class="works__text">Мобільні додатки</p>
                     </li>
                     <li class="works__item">
-                        <img src="./images/about-3.jpg" alt="результат роботи на планшеті" width="370">
+                        <picture>
+                            <source srcset="
+                                ./images/main/desktop/about-art-1x.jpg 1x,
+                                ./images/main/desktop/about-art-2x.jpg 2x
+                                " media="(min-width: 1170px)" />
+                            <img src="./images/main/desktop/about-art-1x.jpg" alt="результат роботи на планшеті" width="370" />
+                        </picture>
                         <p class="works__text">Дизайнерські рішення</p>
                     </li>
                 </ul>

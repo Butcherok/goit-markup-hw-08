@@ -26,12 +26,13 @@
     }
 
     @include desktop {
+        width: 100%;
         max-width: 1600px;
-    padding: 200px 0 200px 0;
+        padding: 200px 0 200px 0;
         background-image: $bg-hero-gradient, url(../images/main/desktop/pc-hero-1x.jpg);
-            @include double-pixel {
-                background-image: $bg-hero-gradient, url(../images/main/desktop/pc-hero-2x.jpg);
-            }
+        @include double-pixel {
+            background-image: $bg-hero-gradient, url(../images/main/desktop/pc-hero-2x.jpg);
+        }
     }
 }
 
