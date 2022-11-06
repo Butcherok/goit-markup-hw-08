@@ -47,4 +47,8 @@
     @include tablet {
         max-width: 354px;
     }
+
+    @include desktop {
+        max-width: 370px;
+    }
 }

@@ -38,6 +38,10 @@
     @include tablet {
         padding-bottom: 56px;
     }
+
+    @include desktop {
+        padding-bottom: 20px;
+    }
 }
 
 .gallery-card__title {
