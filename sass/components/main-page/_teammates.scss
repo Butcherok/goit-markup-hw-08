@@ -8,7 +8,7 @@
 }
 
 .team__title {
-    padding-top: 94px;
+    padding-top: 60px;
     margin-bottom: 30px;
 
     font-size: 28px;
@@ -16,12 +16,8 @@
     text-align: center;
     letter-spacing: 0.03em;
 
-    @include tablet {
-        margin-top: 60px;
-    }
-
     @include desktop {
-        margin-top: 0;
+        padding-top: 94px;
         margin-bottom: 50px;
         font-size: 36px;
     }
